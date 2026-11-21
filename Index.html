@@ -5,575 +5,674 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Blessing Adebisi | Digital Marketing Portfolio</title>
-
   <meta name="description" content="I'm Blessing Adebisi, a digital marketer passionate about helping businesses grow through creative marketing strategies, social media marketing, brand promotion and digital solutions.">
-
   <meta name="author" content="Blessing Adebisi">
-
   <meta name="google-site-verification" content="NoWzssFwaxEWlPKY_rTZ1hwvWnXZ1t7Qd_TQcl0cZMA">
 
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
 
-body {
-  font-family: Arial, sans-serif;
-  background: #f7f5ef;
-  color: #172321;
-  line-height: 1.7;
-}
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f5ef;
+      color: #172321;
+      line-height: 1.7;
+    }
 
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
-}
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
 
-nav {
-  padding: 22px 0;
-  display: flex;
-  justify-content: flex-end;
-  gap: 25px;
-}
+    nav {
+      padding: 22px 0;
+      display: flex;
+      justify-content: flex-end;
+      gap: 25px;
+    }
 
-nav a {
-  text-decoration: none;
-  color: #176b55;
-  font-weight: bold;
-}
+    nav a {
+      text-decoration: none;
+      color: #176b55;
+      font-weight: bold;
+    }
 
-.hero {
-  padding: 85px 0;
-}
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-.hero h1 {
-  font-size: clamp(40px, 7vw, 75px);
-  line-height: 1.1;
-  margin: 20px 0;
-}
+    .hero {
+      padding: 85px 0;
+    }
 
-.hero h1 span {
-  color: #176b55;
-}
+    .hero h1 {
+      font-size: clamp(40px, 7vw, 75px);
+      line-height: 1.1;
+      margin: 20px 0;
+    }
 
-.hero p {
-  max-width: 650px;
-  color: #61716d;
-  font-size: 18px;
-}
+    .hero h1 span {
+      color: #176b55;
+    }
 
-.eyebrow {
-  color: #176b55;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 13px;
-}
+    .hero p {
+      max-width: 650px;
+      color: #61716d;
+      font-size: 18px;
+    }
 
-.button {
-  display: inline-block;
-  padding: 12px 22px;
-  border-radius: 30px;
-  text-decoration: none;
-  margin: 10px 8px 0 0;
-  font-weight: bold;
-  border: 1px solid #176b55;
-  background: #176b55;
-  color: white;
-}
+    .eyebrow {
+      color: #176b55;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+    }
 
-.button.secondary {
-  background: transparent;
-  color: #176b55;
-}
+    .button {
+      display: inline-block;
+      padding: 12px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+      margin: 10px 8px 0 0;
+      font-weight: bold;
+      border: 1px solid #176b55;
+      background: #176b55;
+      color: white;
+    }
 
-section {
-  padding: 70px 0;
-}
+    .button.secondary {
+      background: transparent;
+      color: #176b55;
+    }
 
-h2 {
-  font-size: 35px;
-  margin: 12px 0 20px;
-  line-height: 1.2;
-}
+    section {
+      padding: 70px 0;
+    }
 
-.about {
-  background: white;
-}
+    h2 {
+      font-size: 35px;
+      margin: 12px 0 20px;
+      line-height: 1.2;
+    }
 
-.about p,
-.section-intro {
-  color: #61716d;
-  margin-bottom: 15px;
-}
+    .about {
+      background: white;
+    }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin-top: 30px;
-}
+    .about p,
+    .section-intro {
+      color: #61716d;
+      margin-bottom: 15px;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #e5e8df;
-  border-radius: 18px;
-  padding: 25px;
-}
+    .profile-picture {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: contain;
+      object-position: center;
+      display: block;
+      margin: 20px auto;
+      background: #f7f5ef;
+    }
 
-.card h3 {
-  margin: 12px 0;
-  color: #176b55;
-}
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 30px;
+    }
 
-.card p {
-  color: #61716d;
-  font-size: 15px;
-}
+    .card {
+      background: white;
+      border: 1px solid #e5e8df;
+      border-radius: 18px;
+      padding: 25px;
+    }
 
-.number {
-  color: #176b55;
-  font-weight: bold;
-}
+    .card h3 {
+      margin: 12px 0;
+      color: #176b55;
+    }
 
-.process {
-  background: #eaf0e6;
-}
+    .card p {
+      color: #61716d;
+      font-size: 15px;
+    }
 
-.steps {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  margin-top: 30px;
-}
+    .number {
+      color: #176b55;
+      font-weight: bold;
+    }
 
-.step {
-  border-top: 2px solid #176b55;
-  padding-top: 15px;
-}
+    .process {
+      background: #eaf0e6;
+    }
 
-.step p {
-  color: #61716d;
-}
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      margin-top: 30px;
+    }
 
-.tools {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 25px;
-}
+    .step {
+      border-top: 2px solid #176b55;
+      padding-top: 15px;
+    }
 
-.tool {
-  background: white;
-  border: 1px solid #e5e8df;
-  border-radius: 30px;
-  padding: 10px 18px;
-}
+    .step p {
+      color: #61716d;
+    }
 
-.value {
-  background: #172321;
-  color: white;
-}
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 25px;
+    }
 
-.value p {
-  color: #bdc9c4;
-}
+    .tool {
+      background: white;
+      border: 1px solid #e5e8df;
+      border-radius: 30px;
+      padding: 10px 18px;
+    }
 
-.value-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  margin-top: 30px;
-}
+    /* Projects section */
+    .projects {
+      background: white;
+    }
 
-.value-item {
-  border: 1px solid #52605b;
-  border-radius: 15px;
-  padding: 20px;
-}
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      margin-top: 32px;
+    }
 
-.contact {
-  background: #c8e6a0;
-}
+    .project-card {
+      overflow: hidden;
+      background: #fdfdfb;
+      border: 1px solid #e5e8df;
+      border-radius: 18px;
+    }
 
-.contact-details {
-  margin: 25px 0;
-  display: grid;
-  gap: 18px;
-}
+    .project-image {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      background: #f1f0eb;
+    }
 
-.contact-item {
-  overflow-wrap: anywhere;
-}
+    .project-content {
+      padding: 22px;
+    }
 
-.contact-item strong {
-  display: block;
-  margin-bottom: 3px;
-}
+    .project-content h3 {
+      color: #176b55;
+      margin-bottom: 8px;
+    }
 
-.contact-item a {
-  color: #176b55;
-  text-decoration: underline;
-  font-weight: 600;
-}
+    .project-type {
+      color: #176b55;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
 
-.contact-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
+    .project-content p {
+      color: #61716d;
+      font-size: 15px;
+    }
 
-.contact-buttons .button {
-  background: #172321;
-  color: white;
-  border-color: #172321;
-}
+    .project-gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      padding: 8px;
+      background: #f1f0eb;
+    }
 
-footer {
-  padding: 25px 0;
-  text-align: center;
-  color: #61716d;
-  font-size: 14px;
-}
+    .project-gallery img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      background: white;
+      border-radius: 8px;
+    }
 
-@media(max-width:700px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
+    .value {
+      background: #172321;
+      color: white;
+    }
 
-  .steps,
-  .value-grid {
-    grid-template-columns: 1fr;
-  }
+    .value p {
+      color: #bdc9c4;
+    }
 
-  nav {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
+    .value-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 30px;
+    }
 
-  .hero {
-    padding: 55px 0;
-  }
+    .value-item {
+      border: 1px solid #52605b;
+      border-radius: 15px;
+      padding: 20px;
+    }
 
-  h2 {
-    font-size: 29px;
-  }
-.profile-picture {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: contain;
-  object-position: center;
-  display: block;
-  margin: 20px auto;
-  background: #f7f5ef;
-    
-  }
-</style>
+    .contact {
+      background: #c8e6a0;
+    }
+
+    .contact-details {
+      margin: 25px 0;
+      display: grid;
+      gap: 18px;
+    }
+
+    .contact-item {
+      overflow-wrap: anywhere;
+    }
+
+    .contact-item strong {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .contact-item a {
+      color: #176b55;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .contact-buttons .button {
+      background: #172321;
+      color: white;
+      border-color: #172321;
+    }
+
+    footer {
+      padding: 25px 0;
+      text-align: center;
+      color: #61716d;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      .cards,
+      .steps,
+      .value-grid,
+      .project-grid {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      .hero {
+        padding: 55px 0;
+      }
+
+      h2 {
+        font-size: 29px;
+      }
+
+      .project-gallery img {
+        height: 120px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
 <header class="container">
-<nav>
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="#approach">Approach</a>
-<a href="#contact">Contact</a>
-</nav>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#approach">Approach</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
 <main>
 
-<!-- HERO SECTION -->
-<section class="hero container">
-<div class="eyebrow">
-Digital Marketing | Content | Social Media
-</div>
+  <!-- HERO SECTION -->
+  <section class="hero container">
+    <div class="eyebrow">Digital Marketing | Content | Social Media</div>
 
-<h1>
-Helping brands grow with
-<span>purpose.</span>
-</h1>
+    <h1>
+      Helping brands grow with
+      <span>purpose.</span>
+    </h1>
 
-<p>
-I help businesses build a stronger online presence
-through thoughtful strategy, engaging content
-and consistent digital communication.
-</p>
+    <p>
+      I help businesses build a stronger online presence
+      through thoughtful strategy, engaging content
+      and consistent digital communication.
+    </p>
 
-<a href="#contact" class="button">Let's Work Together</a>
-<a href="#services" class="button secondary">Explore Services</a>
-</section>
+    <a href="#contact" class="button">Let's Work Together</a>
+    <a href="#services" class="button secondary">Explore Services</a>
+  </section>
 
-<!-- ABOUT SECTION -->
-<section class="about" id="about">
-<div class="container">
-<img src="blessing.png"
-     alt="Blessing Adebisi"
-     class="profile-picture">
-<div class="eyebrow">Professional Overview</div>
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="container">
+      <img src="blessing.png" alt="Blessing Adebisi" class="profile-picture">
 
-<h2>Creative Thinking, Backed by Strategy.</h2>
+      <div class="eyebrow">Professional Overview</div>
+      <h2>Creative Thinking, Backed by Strategy.</h2>
 
-<p>
-I am a passionate digital marketer dedicated to helping
-businesses and brands establish a strong online presence,
-increase brand awareness and achieve their marketing goals.
-</p>
+      <p>
+        I am a passionate digital marketer dedicated to helping
+        businesses and brands establish a strong online presence,
+        increase brand awareness and achieve their marketing goals.
+      </p>
 
-<p>
-My approach combines creativity, strategic thinking,
-content development and digital marketing to create
-meaningful experiences that connect brands with
-their target audiences.
-</p>
+      <p>
+        My approach combines creativity, strategic thinking,
+        content development and digital marketing to create
+        meaningful experiences that connect brands with
+        their target audiences.
+      </p>
 
-<p>
-I believe successful digital marketing goes beyond
-posting content. It requires understanding people,
-communicating value and building trust.
-</p>
+      <p>
+        I believe successful digital marketing goes beyond
+        posting content. It requires understanding people,
+        communicating value and building trust.
+      </p>
+    </div>
+  </section>
 
-</div>
-</section>
+  <!-- SERVICES SECTION -->
+  <section id="services">
+    <div class="container">
+      <div class="eyebrow">What I Do</div>
+      <h2>My Digital Marketing Services</h2>
 
-<!-- SERVICES SECTION -->
-<section id="services">
-<div class="container">
+      <p class="section-intro">
+        Helping brands communicate effectively and grow online.
+      </p>
 
-<div class="eyebrow">What I Do</div>
-<h2>My Digital Marketing Services</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="number">01</div>
+          <h3>Social Media Management</h3>
+          <p>Managing social media platforms through content planning, scheduling and audience engagement.</p>
+        </div>
 
-<p class="section-intro">
-Helping brands communicate effectively and grow online.
-</p>
+        <div class="card">
+          <div class="number">02</div>
+          <h3>Content Creation</h3>
+          <p>Creating engaging and visually appealing content that communicates brand values.</p>
+        </div>
 
-<div class="cards">
+        <div class="card">
+          <div class="number">03</div>
+          <h3>Social Media Strategy</h3>
+          <p>Developing marketing strategies that improve online visibility and engagement.</p>
+        </div>
 
-<div class="card">
-<div class="number">01</div>
-<h3>Social Media Management</h3>
-<p>
-Managing social media platforms through content
-planning, scheduling and audience engagement.
-</p>
-</div>
+        <div class="card">
+          <div class="number">04</div>
+          <h3>Brand Awareness</h3>
+          <p>Helping businesses build recognition, credibility and a consistent brand identity.</p>
+        </div>
 
-<div class="card">
-<div class="number">02</div>
-<h3>Content Creation</h3>
-<p>
-Creating engaging and visually appealing content
-that communicates brand values.
-</p>
-</div>
+        <div class="card">
+          <div class="number">05</div>
+          <h3>Copywriting</h3>
+          <p>Writing compelling captions, promotional messages and marketing content.</p>
+        </div>
 
-<div class="card">
-<div class="number">03</div>
-<h3>Social Media Strategy</h3>
-<p>
-Developing marketing strategies that improve
-online visibility and engagement.
-</p>
-</div>
+        <div class="card">
+          <div class="number">06</div>
+          <h3>Digital Campaigns</h3>
+          <p>Supporting campaigns designed to promote products, services and business objectives.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div class="card">
-<div class="number">04</div>
-<h3>Brand Awareness</h3>
-<p>
-Helping businesses build recognition,
-credibility and a consistent brand identity.
-</p>
-</div>
+  <!-- PROJECTS SECTION -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="eyebrow">Selected Work</div>
+      <h2>Projects & Experience</h2>
 
-<div class="card">
-<div class="number">05</div>
-<h3>Copywriting</h3>
-<p>
-Writing compelling captions, promotional
-messages and marketing content.
-</p>
-</div>
+      <p class="section-intro">
+        A selection of product marketing, social media, content and creative
+        projects from my portfolio.
+      </p>
 
-<div class="card">
-<div class="number">06</div>
-<h3>Digital Campaigns</h3>
-<p>
-Supporting campaigns designed to promote
-products, services and business objectives.
-</p>
-</div>
+      <div class="project-grid">
 
-</div>
-</div>
-</section>
+        <article class="project-card">
+          <div class="project-gallery">
+            <img src="zacrac-hq-case-study.jpg" alt="Zacrac HQ product launch case study">
+            <img src="zacrac-hq-campaign-overview.jpg" alt="Zacrac campaign overview">
+          </div>
+          <div class="project-content">
+            <div class="project-type">Product launch · Brand strategy</div>
+            <h3>Zacrac HQ</h3>
+            <p>
+              Project work focused on product launch, positioning and messaging,
+              supported by brand strategy, content management, SEO, email
+              marketing and social media management.
+            </p>
+          </div>
+        </article>
 
-<!-- APPROACH -->
-<section class="process" id="approach">
-<div class="container">
+        <article class="project-card">
+          <img class="project-image" src="content-and-copywriting.jpg" alt="Content and copywriting portfolio samples">
+          <div class="project-content">
+            <div class="project-type">Writing · Content development</div>
+            <h3>Content & Copywriting</h3>
+            <p>
+              Selected content and copywriting work across brands including
+              Sprinble LLC, Pinnaclerisk Advisory, Sendchamp, Airaroma Nigeria,
+              Gameswarehouse, Zacrac HQ and Parrot.
+            </p>
+          </div>
+        </article>
 
-<div class="eyebrow">My Approach</div>
-<h2>How I Work</h2>
+        <article class="project-card">
+          <div class="project-gallery">
+            <img src="social-media-projects.jpg" alt="Social media marketing project samples">
+            <img src="social-media-impact-and-strategy.jpg" alt="Social media strategy and impact examples">
+          </div>
+          <div class="project-content">
+            <div class="project-type">Social media · Campaigns</div>
+            <h3>Social Media Marketing</h3>
+            <p>
+              Social media project work for brands including Sprinble LLC,
+              Whavit, Viprone, Zacrac Learning, Xtm-Designs, SFT, Driversng
+              and DerbyStouch. The portfolio includes strategy, content
+              creation, social media management, paid ads and analytics.
+            </p>
+          </div>
+        </article>
 
-<div class="steps">
+        <article class="project-card">
+          <img class="project-image" src="product-marketing-projects.jpg" alt="Product marketing project examples">
+          <div class="project-content">
+            <div class="project-type">Product marketing · Growth</div>
+            <h3>Product Marketing</h3>
+            <p>
+              Product marketing work involving Zacrac HQ, Zacrac Learning,
+              Parrot, Whavit, SFT and Xtm-Designs, including launch planning,
+              SEO and analytics, email marketing, customer insights and
+              product development support.
+            </p>
+          </div>
+        </article>
 
-<div class="step">
-<h3>01. Research and Discovery</h3>
-<p>
-Understanding the brand, its goals,
-competitors and target audience.
-</p>
-</div>
+        <article class="project-card">
+          <img class="project-image" src="creative-services-projects.jpg" alt="Creative services and video content portfolio examples">
+          <div class="project-content">
+            <div class="project-type">Creative services · Video</div>
+            <h3>Creative Services</h3>
+            <p>
+              Creative work involving scriptwriting, mood board creation,
+              storytelling and video production for brands including
+              Xtm-Designs, Zacrac Learning & HQ, and Paradigm Africa.
+            </p>
+          </div>
+        </article>
 
-<div class="step">
-<h3>02. Strategy Development</h3>
-<p>
-Creating a marketing plan that aligns
-with business objectives.
-</p>
-</div>
+      </div>
+    </div>
+  </section>
 
-<div class="step">
-<h3>03. Content Creation</h3>
-<p>
-Developing relevant and engaging
-digital content.
-</p>
-</div>
+  <!-- APPROACH -->
+  <section class="process" id="approach">
+    <div class="container">
+      <div class="eyebrow">My Approach</div>
+      <h2>How I Work</h2>
 
-<div class="step">
-<h3>04. Audience Engagement</h3>
-<p>
-Building meaningful relationships
-with online communities.
-</p>
-</div>
+      <div class="steps">
+        <div class="step">
+          <h3>01. Research and Discovery</h3>
+          <p>Understanding the brand, its goals, competitors and target audience.</p>
+        </div>
 
-<div class="step">
-<h3>05. Performance Analysis</h3>
-<p>
-Monitoring results and identifying
-opportunities for improvement.
-</p>
-</div>
+        <div class="step">
+          <h3>02. Strategy Development</h3>
+          <p>Creating a marketing plan that aligns with business objectives.</p>
+        </div>
 
-</div>
-</div>
-</section>
+        <div class="step">
+          <h3>03. Content Creation</h3>
+          <p>Developing relevant and engaging digital content.</p>
+        </div>
 
-<!-- TOOLS -->
-<section>
-<div class="container">
+        <div class="step">
+          <h3>04. Audience Engagement</h3>
+          <p>Building meaningful relationships with online communities.</p>
+        </div>
 
-<div class="eyebrow">My Toolkit</div>
-<h2>Digital Marketing Tools</h2>
+        <div class="step">
+          <h3>05. Performance Analysis</h3>
+          <p>Monitoring results and identifying opportunities for improvement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- TOOLS -->
+  <section>
+    <div class="container">
+      <div class="eyebrow">My Toolkit</div>
+      <h2>Digital Marketing Tools</h2>
 
-<div class="tools">
-  <span class="tool">Canva</span>
-  <span class="tool">Meta Business Suite</span>
-  <span class="tool">Instagram</span>
-  <span class="tool">Facebook</span>
-  <span class="tool">TikTok</span>
-  <span class="tool">CapCut</span>
-  <span class="tool">Google Analytics</span>
-  <span class="tool">HubSpot</span>
-  <span class="tool">AI-Powered Marketing Tools</span>
-  <span class="tool">Email Marketing Tools</span>
-  <span class="tool">Content Planning Tools</span>
-  <span class="tool">And More</span>
-</div>
+      <div class="tools">
+        <span class="tool">Canva</span>
+        <span class="tool">Meta Business Suite</span>
+        <span class="tool">Instagram</span>
+        <span class="tool">Facebook</span>
+        <span class="tool">TikTok</span>
+        <span class="tool">CapCut</span>
+        <span class="tool">Google Analytics</span>
+        <span class="tool">HubSpot</span>
+        <span class="tool">AI-Powered Marketing Tools</span>
+        <span class="tool">Email Marketing Tools</span>
+        <span class="tool">Content Planning Tools</span>
+        <span class="tool">And More</span>
+      </div>
+    </div>
+  </section>
 
-</section>
+  <!-- VALUE -->
+  <section class="value">
+    <div class="container">
+      <div class="eyebrow">What I Bring</div>
+      <h2>Marketing With Intention.</h2>
 
-<!-- VALUE -->
-<section class="value">
-<div class="container">
+      <p>
+        I bring creativity, consistency, strategic thinking
+        and attention to detail to every project.
+      </p>
 
-<div class="eyebrow">What I Bring</div>
-<h2>Marketing With Intention.</h2>
+      <div class="value-grid">
+        <div class="value-item">
+          <h3>Creativity</h3>
+          <p>Fresh ideas and engaging communication.</p>
+        </div>
 
-<p>
-I bring creativity, consistency, strategic thinking
-and attention to detail to every project.
-</p>
+        <div class="value-item">
+          <h3>Consistency</h3>
+          <p>A reliable and recognizable brand presence.</p>
+        </div>
 
-<div class="value-grid">
+        <div class="value-item">
+          <h3>Strategy</h3>
+          <p>Marketing guided by goals and audience needs.</p>
+        </div>
 
-<div class="value-item">
-<h3>Creativity</h3>
-<p>Fresh ideas and engaging communication.</p>
-</div>
+        <div class="value-item">
+          <h3>Attention to Detail</h3>
+          <p>Careful execution and effective communication.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div class="value-item">
-<h3>Consistency</h3>
-<p>A reliable and recognizable brand presence.</p>
-</div>
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="eyebrow">Get In Touch</div>
+      <h2>Let's Grow Your<br>Digital Presence.</h2>
 
-<div class="value-item">
-<h3>Strategy</h3>
-<p>Marketing guided by goals and audience needs.</p>
-</div>
+      <p>
+        Whether you are a startup, small business,
+        personal brand or established company,
+        I am ready to help you strengthen your
+        digital marketing presence.
+      </p>
 
-<div class="value-item">
-<h3>Attention to Detail</h3>
-<p>Careful execution and effective communication.</p>
-</div>
+      <div class="contact-buttons">
+        <a class="button" href="mailto:Blessing.hea@gmail.com">Email</a>
 
-</div>
-</div>
-</section>
+        <a class="button" href="https://wa.me/2347019816085" target="_blank" rel="noopener">
+          WhatsApp
+        </a>
 
-<!-- CONTACT SECTION -->
-<section class="contact" id="contact">
-<div class="container">
-
-<div class="eyebrow">Get In Touch</div>
-
-<h2>Let's Grow Your<br>Digital Presence.</h2>
-
-<p>
-Whether you are a startup, small business,
-personal brand or established company,
-I am ready to help you strengthen your
-digital marketing presence.
-</p>
-
-
-<div class="contact-buttons">
-
-<a class="button"
-href="mailto:Blessing.hea@gmail.com">
-Email
-</a>
-
-<a class="button"
-href="https://wa.me/2347019816085"
-target="_blank" rel="noopener">
-WhatsApp
-</a>
-
-<a class="button"
-href="https://www.linkedin.com/in/blessing-olusola"
-target="_blank" rel="noopener">
-LinkedIn
-</a>
-
-</div>
-
-</div>
-</section>
+        <a class="button" href="https://www.linkedin.com/in/blessing-olusola" target="_blank" rel="noopener">
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
 
 </main>
 
 <footer>
-© 2026 Blessing Adebisi | Digital Marketing Portfolio
+  © 2026 Blessing Adebisi | Digital Marketing Portfolio
 </footer>
 
 </body>
